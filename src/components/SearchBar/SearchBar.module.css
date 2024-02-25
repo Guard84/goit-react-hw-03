@@ -1,0 +1,11 @@
+.textSearchBar {
+  margin: auto;
+}
+
+.wrapperSearchBar {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+}

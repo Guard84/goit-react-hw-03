@@ -11,18 +11,27 @@
   background-color: rgb(203, 203, 252);
 }
 
+.btn:hover {
+  background-color: rgb(194, 189, 189);
+}
+
+.btn:focus {
+  background-color: rgb(194, 189, 189);
+}
+
 .text {
   font-weight: 500;
   margin: 0;
 }
 
 .listItem {
+  width: 300px;
   border: 1px solid rgb(36, 32, 32);
   border-radius: 8px;
   padding: 10px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .iconContainer {
