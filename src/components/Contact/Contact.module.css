@@ -1,0 +1,39 @@
+
+.btn {
+  margin-left: 40px;
+  padding: 4px 8px;
+  border: 1px solid grey;
+  height: 35px;
+  border-radius: 2px;
+  align-self: center;
+  cursor: pointer;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgb(203, 203, 252);
+}
+
+.text {
+  font-weight: 500;
+  margin: 0;
+}
+
+.listItem {
+  border: 1px solid rgb(36, 32, 32);
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
